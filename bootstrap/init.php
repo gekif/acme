@@ -3,9 +3,7 @@
 /**
  * Start session if not already started
  */
-if (!isset($_SESSION)) {
+if (!isset($_SESSION)) session_start();
 
-}
-
-// Load enviroment variable
+// Load environment variable
 require_once __DIR__ . '/../app/config/_env.php';
