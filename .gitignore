@@ -3,3 +3,4 @@ bootstrap/cache
 vendor
 node_modules/
 resources/assets/bower/vendor
+bower_components
